@@ -16,7 +16,7 @@ body, html {
 }
 
 .main-bar {
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
     grid-column: 2 / 3;
     grid-row: 1 / 3;
 }
@@ -41,4 +41,25 @@ header {
 
 .user-info, .add-project-buttons {
     grid-row: 2 / 3;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    border-style: solid;
+}
+
+.announcements-trending {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    border-style: solid;
+}
+
+.announcements-tabs {
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 0px #CCCCCC;;
 }
