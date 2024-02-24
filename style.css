@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+   /* margin: 0; */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 4fr;
+    border-style: solid;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: rgb(0, 162, 255);
+}
+
+.main-bar {
+    background-color: whitesmoke;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.search, .user-info {
+    grid-column: 1 / 3;
+}
+
+.top-right, .add-project-buttons {
+    grid-column: 2 / 3;
+}
+
+.search, .top-right {
+    grid-row: 1 / 2;
+}
+
+.user-info, .add-project-buttons {
+    grid-row: 2 / 3;
+}
