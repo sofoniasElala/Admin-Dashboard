@@ -145,13 +145,13 @@ img {
 }
 
 .star {
-    background-image: url(./star-plus-outline.svg);
+    background-image: url(./Icons:Images/star-plus-outline.svg);
 }
 .comment {
-    background-image: url(./comment-plus-outline.svg);
+    background-image: url(./Icons:Images/comment-plus-outline.svg);
 }
 .share {
-    background-image: url(./share-all-outline.svg);
+    background-image: url(./Icons:Images/share-all-outline.svg);
 }
 
 .star, .comment, .share {
