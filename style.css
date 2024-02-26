@@ -186,3 +186,21 @@ span i {
     font-size: 15px;
     padding-top: 13px;
 }
+
+.sidebar {
+    padding: 20px;
+    color: #ffffff;
+}
+.sidebar .options{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(9, 25px);
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.title {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
