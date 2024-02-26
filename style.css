@@ -180,6 +180,7 @@ span i {
     margin: 0 15px;
     border-radius: 35px;
     background-color: #2b2d42;
+    cursor: pointer;
 }
 
 .top-right span {
